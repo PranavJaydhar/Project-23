@@ -17,9 +17,9 @@ function setup() {
 	
    //Create Player Base and Computer Base Object
   playerBase = new PlayerBase(300,random(450,height-300),180,150);
-  computerBase = new ComputerBase(1200,random(450,height-300),180,150);
+  computerBase = new ComputerBase(650,random(450,height-300),180,150);
   player = new Player(285,playerBase.body.position.y-153,50,180);
-  computer = new Computer(1200,computerBase.body.position.y-153,50,180);
+  computer = new Computer(650,computerBase.body.position.y-153,50,180);
  }
 
 function draw() {
